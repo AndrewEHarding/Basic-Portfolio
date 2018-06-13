@@ -1,14 +1,13 @@
 /* Here we are, born to be kings! We're the princes of the universe! */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     margin: auto;
     color: #777777;
     background-image: url(../images/frontpagebackground.jpg);
-    /* background-repeat: no-repeat; */
     background-attachment: fixed;
     line-height: 1.5;
-    /* font-size: 16pt; */
 
 }
 
@@ -25,6 +24,15 @@ header {
     
 }
 
+.profilepic {
+    width: 200px;
+    float: left;
+}
+
+input {
+    width: 95%;
+}
+
 .top-bar {
     width: 960px;
     margin: auto;
@@ -32,24 +40,22 @@ header {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: #ffffff;
-    /* padding: 25px; */
     float: left;
+    padding: 25px;
 
 }
 
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
 
 }
 
 h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20pt;
-    padding: 25px;
 
 }
 
@@ -69,11 +75,6 @@ a:hover {
 
 }
 
-hr {
-    width: 95%;
-    
-}
-
 nav {
     float: right;
     margin-top: 35px;
@@ -86,18 +87,17 @@ nav {
     border: solid #cccccc;
     border-width: 1.5px;
     background-color: #ffffff;
-    /* padding: 20px; */
 
 }
 
-/* .content * {
-    padding: 20px;
+hr {
+    width: 95%;
+    padding: 0;
 
-} */
+}
 
-form, p {
-    padding: 20px;
-
+.content * {
+    margin: 25px;
 }
 
 footer {
