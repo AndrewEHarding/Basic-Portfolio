@@ -24,12 +24,49 @@ header {
     
 }
 
+.portfolio-icon {
+    float: left;
+    width: 250px;
+    height: 250px;
+    position: relative;
+
+}
+
+.portfolio-icon > img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.portfolio-text {
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 100%;
+    bottom: -25px;
+    left: -25px;
+
+}
+
+#contact-link {
+    border: solid #cccccc;
+    border-width: 0px 1.5px 0px 1.5px;
+    background: #4aaaa5;
+
+}
+
 .profilepic {
     width: 200px;
     float: left;
 }
 
 input {
+    width: 95%;
+}
+
+textarea {
     width: 95%;
 }
 
@@ -47,6 +84,10 @@ h1 {
 
 }
 
+h1:hover {
+    text-shadow: #666666 2px 2px;
+}
+
 h2 {
     color: #4aaaa5;
 
@@ -60,7 +101,15 @@ h1, h2 {
 }
 
 ul#nav-links li {
+    padding: 8px;
     display: inline;
+    border: solid #cccccc;
+    border-width: 0px 1.5px 0px 0px;
+
+}
+
+ul#nav-links li:last-child {
+    border: solid #ffffff;
 
 }
 
@@ -82,6 +131,8 @@ nav {
 }
 
 .content {
+    float: left;
+    width: 100%;
     margin-top: 110px;
     margin-bottom: 75px;
     border: solid #cccccc;
